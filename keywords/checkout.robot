@@ -8,8 +8,8 @@ Library             FakerLibrary
 *** Keywords ***
 Verify checkout your information elements
     Wait Until Element Is Visible    ${CHECKOUT_YOUR_INFO_HEADER_LOCATOR}        10s    error=Checkout Your Information header is not displayed.
-    Wait Until Element Is Visible    ${CHECKOUT_CANCEL_BTN_LOCATOR}                  10s    error=Checkout Cancel button is not displayed.
-    Wait Until Element Is Visible    ${CHECKOUT_CONTINUE_BTN_LOCATOR}                10s    error=Checkout Continue button is not displayed.
+    Wait Until Element Is Visible    ${CHECKOUT_CANCEL_BTN_LOCATOR}              10s    error=Checkout Cancel button is not displayed.
+    Wait Until Element Is Visible    ${CHECKOUT_CONTINUE_BTN_LOCATOR}            10s    error=Checkout Continue button is not displayed.
     Wait Until Element Is Visible    ${CHECKOUT_FIRST_NAME_LOCATOR}              10s    error=Checkout First Name is not displayed.
     Wait Until Element Is Visible    ${CHECKOUT_LAST_NAME_LOCATOR}               10s    error=Checkout Last Name is not displayed.
     Wait Until Element Is Visible    ${CHECKOUT_POSTAL_CODE_LOCATOR}             10s    error=Checkout Postal Code is not displayed.

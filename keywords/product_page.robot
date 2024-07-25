@@ -20,7 +20,7 @@ Click on Back to products from product page
 Click on Add to cart button in product page
     Click Element    ${PRODUCT_PAGE_PRODUCT_ADD_TO_CART_LOCATOR}
     Wait Until Element Is Visible    ${PRODUCT_PAGE_REMOVE_PRODUCT_LOCATOR}    10s    error=Product list Remove product button not displayed. 
-    Wait Until Element Is Visible    ${CART_ICON_QTY_LOCATOR}              10s    error=Product list Cart quantity not displayed.
+    Wait Until Element Is Visible    ${CART_ICON_QTY_LOCATOR}                  10s    error=Product list Cart quantity not displayed.
     ${cart_qty}    Get Text    ${CART_ICON_QTY_LOCATOR}
     Should Be Equal    1    ${cart_qty}
     
