@@ -1,0 +1,4 @@
+robotframework==7.0.1
+robotframework-seleniumlibrary==6.5.0
+selenium==4.23.1
+robotframework-pabot==2.18.0
