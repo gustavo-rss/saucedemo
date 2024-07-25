@@ -26,7 +26,7 @@ TC17 - Completing a single product order
     Verify product list elements
 
 TC18 - Inputting empty address on checkout
-    [Documentation]    This test verifies completing a single product order.
+    [Documentation]    This test verifies empty address on checkout error.
     [Tags]  smoke    checkout 
 
     Click on Add to cart button in product list
